@@ -1,0 +1,51 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:01_Data_Structures  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431380
+      }
+    },
+    {
+      "query": "path:03_Techniques  ",
+      "color": {
+        "a": 1,
+        "rgb": 3366886
+      }
+    },
+    {
+      "query": "path:02_Algorithms  ",
+      "color": {
+        "a": 1,
+        "rgb": 15887711
+      }
+    },
+    {
+      "query": "path:04_Complexity  ",
+      "color": {
+        "a": 1,
+        "rgb": 11237368
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -2.8,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.504191080729167,
+  "repelStrength": 9.9951171875,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 2.0984204235103077,
+  "close": false
+}
