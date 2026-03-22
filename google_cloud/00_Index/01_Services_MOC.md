@@ -5,6 +5,7 @@ This map covers the core building blocks of Google Cloud Platform.
 ## 💻 Compute (The Engines)
 *(Virtual Machines, Containers, Serverless)*
 - [[01_Services/Compute/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
+- [[01_Services/Compute/Compute Engine|Compute Engine]]
 
 ## 🌐 Networking (The Highways)
 *(VPCs, Load Balancing, DNS, Interconnect)*

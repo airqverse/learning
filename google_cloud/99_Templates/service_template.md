@@ -33,5 +33,7 @@ infrastructure_analogy: ""
 - **Compared to:** [[01_Services/Category/Alternative_Service|Alternative Service]] (e.g., GKE vs. Cloud Run)
 - **Operations & IaC:** [[02_Operations_and_IaC/Service_Name_Ops|Service Name Operations]] (Link to Terraform/gcloud configuration notes)
 
+#gcp/services/[CATEGORY_NAME] # Gemini CLI: replace with the category (e.g., #gcp/services/Compute)
+
 ---
 [[00_Index/01_Services_MOC|Back to Services Index]]
