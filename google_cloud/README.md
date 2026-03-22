@@ -8,11 +8,23 @@ This repository is a structured learning system for Google Cloud Platform (GCP),
 
 - **`00_Index/`**: The Map. Entry points and category-specific Maps of Content (MOC).
 - **`01_Services/`**: Main Google Cloud core services.
+  - `Analytics/`
+  - `App_Development/`
+  - `Artificial_Intelligence/`
+  - `CI_CD/`
   - `Compute/`
-  - `Data_and_ML/`
+  - `Databases/`
+  - `Distributed_Cloud/`
+  - `Integration_Services/`
+  - `Management/`
   - `Networking/`
-  - `Security_and_IAM/`
-  - `Storage_and_Databases/`
+  - `Observability/`
+  - `Operations/`
+  - `Security/`
+  - `Serverless/`
+  - `Storage/`
+  - `Tools/`
+  - `Web3/`
 - **`02_Operations_and_IaC/`**: Infrastructure as Code, deployment, monitoring, and SRE.
 - **`03_Design_Patterns/`**: Google Cloud Design Patterns and architecture blueprints.
 - **`04_Case_Studies/`**: Real-world case studies and migration examples.
