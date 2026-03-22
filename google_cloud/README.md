@@ -49,6 +49,23 @@ When modifying or adding new notes, strictly adhere to these principles:
     - `service_model`: [IaaS, PaaS, SaaS, FaaS, CaaS]
     - `management_level`: [Unmanaged, Managed, Fully-Managed, Serverless]
 
+## 📝 File and Folder Naming Conventions
+
+To ensure cross-compatibility between human readability in Obsidian and automation tools (CLI, Git, AI Assistants), **NEVER use spaces in file or folder names.** Always use underscores (`_`).
+
+Strictly adhere to the following naming formats:
+
+1. **Content Notes (Services, Concepts, Patterns):** Use `Pascal_Snake_Case`.
+   - *Example:* `Compute_Engine.md`, `Cloud_Load_Balancing.md`
+2. **Directories / Folders:** Use `[Optional_Number_Prefix]_Pascal_Snake_Case`.
+   - *Example:* `01_Services/`, `Compute/`, `Data_and_ML/`
+3. **Utility and System Files (Templates, Configs):** Use `lowercase_snake_case`.
+   - *Example:* `service_template.md`
+4. **Maps of Content (MOCs) & Indexes:** Use `[Number]_Concept_MOC.md`.
+   - *Example:* `01_Services_MOC.md`, `00_GCP_Master_Map.md`
+
+*Note: For human readability in Obsidian text, use aliases when creating links to obscure the underscore (e.g., `[[Compute_Engine|Compute Engine]]`).*
+
 ## 🎨 Graph View Setup
 To visualize the knowledge map effectively in Obsidian, use the following "Group by Path" colors for the top-level directories:
 - **`00_Index`**: Yellow (The Map)
