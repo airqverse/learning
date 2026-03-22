@@ -14,6 +14,7 @@ This map covers the core building blocks of Google Cloud Platform, categorized t
 
 ## 📊 Analytics
 - [[01_Services/Analytics/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
+- [[01_Services/Analytics/Cloud_Dataproc|Cloud Dataproc]]
 
 ## 🌐 Networking
 - [[01_Services/Networking/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
@@ -26,6 +27,7 @@ This map covers the core building blocks of Google Cloud Platform, categorized t
 
 ## 🗄️ Databases
 - [[01_Services/Databases/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
+- [[01_Services/Databases/Cloud_SQL|Cloud SQL]]
 
 ## 🔭 Observability
 - [[01_Services/Observability/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
