@@ -1,7 +1,6 @@
 ---
-gcp_service_type: "{{category}}" # e.g., Compute, Networking, Storage
-pricing_model: ""
-exam_topic: ""
+service_model: "" # e.g., IaaS, PaaS, SaaS, FaaS, CaaS
+management_level: "" # e.g., Unmanaged, Managed, Fully-Managed, Serverless
 infrastructure_analogy: ""
 ---
 # {{title}}
@@ -26,27 +25,11 @@ infrastructure_analogy: ""
 - **Billing Metric:** (How are you charged? e.g., per vCPU second, per GB, per request)
 - **Cost Optimization:** (Tips for saving money on this service)
 
-## 💻 Implementation (gcloud & Terraform)
-
-### gcloud CLI
-```bash
-# Example command to provision or manage this service
-gcloud ...
-```
-
-### Terraform
-```hcl
-# Example Terraform resource configuration
-resource "google_..." "example" {
-  name = "example-resource"
-  # ...
-}
-```
-
 ## 🔗 Integrations & Relationships
 *How does this connect to other GCP services?*
 - **Integrates well with:** [[01_Services/Category/Service_Name|Service Name]] (e.g., Cloud Run -> Cloud SQL)
 - **Compared to:** [[01_Services/Category/Alternative_Service|Alternative Service]] (e.g., GKE vs. Cloud Run)
+- **Operations & IaC:** [[02_Operations_and_IaC/Service_Name_Ops|Service Name Operations]] (Link to Terraform/gcloud configuration notes)
 
 #gcp/services/{{category}}
 
