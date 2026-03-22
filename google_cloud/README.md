@@ -1,6 +1,6 @@
 # Google Cloud Knowledge Base (Professional Certification Prep)
 
-This repository is a structured learning system for Google Cloud Platform (GCP), specifically designed as a knowledge base to prepare for **Google Professional Certifications**. It follows a "Concepts-to-Architecture" workflow, using **City Infrastructure** as a consistent metaphor to explain complex cloud services and networking patterns.
+This repository is a structured learning system for Google Cloud Platform (GCP), specifically designed as a knowledge base to prepare for **Google Cloud Professional Certifications**. It follows a "Concepts-to-Architecture" workflow, using **City Infrastructure** as a consistent metaphor to explain complex cloud services and networking patterns.
 
 **These notes are managed with Obsidian; interconnected links and MOCs (Maps of Content) are critical for navigation, discovery, and spaced repetition.**
 
