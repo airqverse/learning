@@ -11,6 +11,7 @@ This map covers the core building blocks of Google Cloud Platform, categorized t
 
 ## 💾 Storage
 - [[01_Services/Storage/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
+- [[01_Services/Storage/Cloud_Storage|Cloud Storage]]
 
 ## 📊 Analytics
 - [[01_Services/Analytics/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
@@ -18,12 +19,14 @@ This map covers the core building blocks of Google Cloud Platform, categorized t
 
 ## 🌐 Networking
 - [[01_Services/Networking/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
+- [[01_Services/Networking/Cloud_Load_Balancing|Cloud Load Balancing]]
 
 ## ☁️ Distributed Cloud
 - [[01_Services/Distributed_Cloud/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
 
 ## ⚡ Serverless
 - [[01_Services/Serverless/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
+- [[01_Services/Serverless/Cloud_Run|Cloud Run]]
 
 ## 🗄️ Databases
 - [[01_Services/Databases/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
@@ -31,6 +34,7 @@ This map covers the core building blocks of Google Cloud Platform, categorized t
 
 ## 🔭 Observability
 - [[01_Services/Observability/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
+- [[01_Services/Observability/Cloud_Logging|Cloud Logging]]
 
 ## 🛠️ Operations
 - [[01_Services/Operations/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
@@ -46,6 +50,7 @@ This map covers the core building blocks of Google Cloud Platform, categorized t
 
 ## 🧠 Artificial Intelligence
 - [[01_Services/Artificial_Intelligence/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
+- [[01_Services/Artificial_Intelligence/Vertex_AI|Vertex AI]]
 
 ## 🔗 Integration Services
 - [[01_Services/Integration_Services/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
