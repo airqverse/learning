@@ -27,15 +27,27 @@ When modifying or adding new notes, strictly adhere to these principles:
 1.  **Index-Driven Navigation**: Never link to a generic "home" page. Every note must link back to its specific category MOC (e.g., `[[00_Index/01_Services_MOC|Back to Services Index]]`).
 2.  **Context-First**: Try to ground abstract cloud concepts with physical infrastructure analogies (e.g., VPC = Gated Community, Cloud Run = On-demand Worker Factory) or standard enterprise use cases.
 3.  **Template Fidelity**: 
-    - **`01_Services`**: Focus on *Use Cases*, *Scaling Limits*, *Pricing Models*, and *`gcloud` CLI / Terraform* examples.
+    - **`01_Services`**: Focus on *Use Cases*, *Scaling Limits*, *Pricing Models*, and *Architecture*. **NO implementation code.**
     - **`02_Operations_and_IaC`**: Focus on *Deployment pipelines*, *Monitoring (Cloud Monitoring/Logging)*, *Terraform configurations*, and *SRE principles*.
     - **`03_Design_Patterns`**: Focus on *Trade-offs*, *High Availability (HA) vs. Disaster Recovery (DR)*, *Cost optimization*, and *Architectural blueprints*.
     - **`04_Case_Studies`**: Focus on *Business requirements*, *Before/After architectures*, and *"Why they chose X over Y"*.
     - **`05_Exam_Prep` & `06_Flashcards`**: Focus on *Key differentiators*, *exact quotas/limits*, and *tricky wording often found in exam questions*.
 4.  **Tagging & Metadata**: Every note MUST include:
-    - YAML frontmatter with attributes like `gcp_service_type`, `pricing_model`, or `exam_topic`.
+    - YAML frontmatter with attributes like `gcp_service_type`.
     - Category-specific tags (e.g., `#gcp/services/compute`, `#gcp/operations`, `#gcp/exam_prep`).
 5.  **Graph Optimization**: Avoid orphan notes. Link new notes in their respective category MOC in `00_Index` and maintain "Related" links between services that integrate well together.
+
+### 🤖 Automated Generation Rules (For Gemini/Cursor)
+
+1.  **Template Placeholders**: Do not use Templater syntax (`{{}}` or `<% %>`). Use the explicit bracket syntax (e.g., `[SERVICE_NAME]`, `[CATEGORY_NAME]`) defined in `99_Templates`.
+2.  **MOC Anchor Linking**: When generating a new note, you MUST automatically add a link to it in the corresponding `00_Index/` MOC file. Look for the anchor comment `# Gemini CLI: Insert...` and insert the link directly above it.
+3.  **Strict Separation of Concerns**:
+    - `01_Services/` is for **Concepts & Architecture** (What it is, limits, analogies).
+    - `02_Operations_and_IaC/` is for **Implementation & Code** (Terraform, gcloud scripts).
+    - These two notes must cross-link to each other.
+4.  **Strict Frontmatter Enums**: Do not invent YAML values. Strictly adhere to these lists:
+    - `service_model`: [IaaS, PaaS, SaaS, FaaS, CaaS]
+    - `management_level`: [Unmanaged, Managed, Fully-Managed, Serverless]
 
 ## 🎨 Graph View Setup
 To visualize the knowledge map effectively in Obsidian, use the following "Group by Path" colors for the top-level directories:
