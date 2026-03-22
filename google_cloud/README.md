@@ -16,7 +16,7 @@ This repository is a structured learning system for Google Cloud Platform (GCP),
 - **`02_Operations_and_IaC/`**: Infrastructure as Code, deployment, monitoring, and SRE.
 - **`03_Design_Patterns/`**: Google Cloud Design Patterns and architecture blueprints.
 - **`04_Case_Studies/`**: Real-world case studies and migration examples.
-- **`05_Tests/`**: Notes for test questions, practice exams, and tricky scenarios.
+- **`05_Exam_Prep/`**: Notes for test questions, practice exams, and tricky scenarios.
 - **`06_Flashcards/`**: Spaced-repetition flashcard files for active recall.
 - **`99_Templates/`**: Templates for automation with Gemini-CLI, ensuring consistent structure across all notes.
 
@@ -31,7 +31,7 @@ When modifying or adding new notes, strictly adhere to these principles:
     - **`02_Operations_and_IaC`**: Focus on *Deployment pipelines*, *Monitoring (Cloud Monitoring/Logging)*, *Terraform configurations*, and *SRE principles*.
     - **`03_Design_Patterns`**: Focus on *Trade-offs*, *High Availability (HA) vs. Disaster Recovery (DR)*, *Cost optimization*, and *Architectural blueprints*.
     - **`04_Case_Studies`**: Focus on *Business requirements*, *Before/After architectures*, and *"Why they chose X over Y"*.
-    - **`05_Tests` & `06_Flashcards`**: Focus on *Key differentiators*, *exact quotas/limits*, and *tricky wording often found in exam questions*.
+    - **`05_Exam_Prep` & `06_Flashcards`**: Focus on *Key differentiators*, *exact quotas/limits*, and *tricky wording often found in exam questions*.
 4.  **Tagging & Metadata**: Every note MUST include:
     - YAML frontmatter with attributes like `gcp_service_type`, `pricing_model`, or `exam_topic`.
     - Category-specific tags (e.g., `#gcp/services/compute`, `#gcp/operations`, `#gcp/exam_prep`).
@@ -44,7 +44,7 @@ To visualize the knowledge map effectively in Obsidian, use the following "Group
 - **`02_Operations_and_IaC`**: Green (Maintenance & Deployment)
 - **`03_Design_Patterns`**: Purple (Architecture & Strategy)
 - **`04_Case_Studies`**: Orange (Real-world Applications)
-- **`05_Tests`**: Red (Exam Preparation)
+- **`05_Exam_Prep`**: Red (Exam Preparation)
 - **`06_Flashcards`**: Pink (Active Recall)
 - **`99_Templates`**: Grey (Automation & Structure)
 
