@@ -40,7 +40,7 @@ When modifying or adding new notes, strictly adhere to these principles:
 ### 🤖 Automated Generation Rules (For Gemini/Cursor)
 
 1.  **Template Placeholders**: Do not use Templater syntax (`{{}}` or `<% %>`). Use the explicit bracket syntax (e.g., `[SERVICE_NAME]`, `[CATEGORY_NAME]`) defined in `99_Templates`.
-2.  **MOC Anchor Linking**: When generating a new note, you MUST automatically add a link to it in the corresponding `00_Index/` MOC file. Look for the anchor comment `# Gemini CLI: Insert...` and insert the link directly above it.
+2.  **MOC Anchor Linking**: When generating a new note, you MUST automatically add a link to it in the corresponding `00_Index/` MOC file. Look for the anchor comment `# Gemini CLI: Insert actual...` and insert the new link on the line directly below it (or replace the placeholder).
 3.  **Strict Separation of Concerns**:
     - `01_Services/` is for **Concepts & Architecture** (What it is, limits, analogies).
     - `02_Operations_and_IaC/` is for **Implementation & Code** (Terraform, gcloud scripts).
