@@ -1,5 +1,5 @@
 ---
-gcp_service_type: "[CATEGORY_NAME]" # e.g., Compute, Networking, Storage (Gemini CLI: fill this in based on the directory)
+service_category: "" # e.g., Compute, Networking, Storage (Gemini CLI: fill this in based on the directory)
 service_model: "" # e.g., IaaS, PaaS, SaaS, FaaS, CaaS
 management_level: "" # e.g., Unmanaged, Managed, Fully-Managed, Serverless
 infrastructure_analogy: ""
@@ -16,6 +16,7 @@ infrastructure_analogy: ""
 ## 🚀 Primary Use Cases
 - **Scenario 1:** (Describe a standard enterprise use case)
 - **Scenario 2:** (Describe another use case)
+- **Scenario 3:** (Describe another use case)
 - **Anti-Patterns:** (When *not* to use this service - often tested in exams)
 
 ## 📏 Scaling Limits & Constraints
@@ -31,8 +32,6 @@ infrastructure_analogy: ""
 - **Integrates well with:** [[01_Services/Category/Service_Name|Service Name]] (e.g., Cloud Run -> Cloud SQL)
 - **Compared to:** [[01_Services/Category/Alternative_Service|Alternative Service]] (e.g., GKE vs. Cloud Run)
 - **Operations & IaC:** [[02_Operations_and_IaC/Service_Name_Ops|Service Name Operations]] (Link to Terraform/gcloud configuration notes)
-
-#gcp/services/[CATEGORY_NAME] # Gemini CLI: replace with the category (e.g., #gcp/services/Compute)
 
 ---
 [[00_Index/01_Services_MOC|Back to Services Index]]
