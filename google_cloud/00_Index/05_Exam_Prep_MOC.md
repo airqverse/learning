@@ -16,6 +16,7 @@ This map is the command center for your Google Professional Certification prepar
 
 ## 🧠 Spaced Repetition (Flashcards)
 *(Links to active recall decks for memorization)*
+- [[06_Flashcards/Cloud_Load_Balancing_Flashcards|Cloud Load Balancing]]
 - [[06_Flashcards/Placeholder|Placeholder]] # Gemini CLI: Insert actual Flashcard deck links below this line
 
 ## 📅 Study Plan & Checklists
