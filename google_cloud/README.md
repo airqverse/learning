@@ -29,7 +29,7 @@ This repository is a structured learning system for Google Cloud Platform (GCP),
 - **`03_Design_Patterns/`**: Google Cloud Design Patterns and architecture blueprints.
 - **`04_Case_Studies/`**: Real-world case studies and migration examples.
 - **`05_Exam_Prep/`**: Notes for test questions, practice exams, and tricky scenarios.
-- **`06_Flashcards/`**: Spaced-repetition flashcard files for active recall.
+- **`98_Flashcards/`**: Spaced-repetition flashcard files for active recall.
 - **`99_Templates/`**: Templates for automation with Gemini-CLI, ensuring consistent structure across all notes.
 
 ## 🛠 Guidelines for AI Assistants (Gemini/Cursor)
@@ -43,7 +43,7 @@ When modifying or adding new notes, strictly adhere to these principles:
     - **`02_Operations_and_IaC`**: Focus on *Deployment pipelines*, *Monitoring (Cloud Monitoring/Logging)*, *Terraform configurations*, and *SRE principles*.
     - **`03_Design_Patterns`**: Focus on *Trade-offs*, *High Availability (HA) vs. Disaster Recovery (DR)*, *Cost optimization*, and *Architectural blueprints*.
     - **`04_Case_Studies`**: Focus on *Business requirements*, *Before/After architectures*, and *"Why they chose X over Y"*.
-    - **`05_Exam_Prep` & `06_Flashcards`**: Focus on *Key differentiators*, *exact quotas/limits*, and *tricky wording often found in exam questions*.
+    - **`05_Exam_Prep` & `98_Flashcards`**: Focus on *Key differentiators*, *exact quotas/limits*, and *tricky wording often found in exam questions*.
 4.  **Tagging & Metadata**: Every note MUST include:
     - YAML frontmatter with attributes like `service_category`.
     - Category-specific tags (e.g., `#services/compute`, `#operations`, `#exam_prep`).
@@ -86,7 +86,7 @@ To visualize the knowledge map effectively in Obsidian, use the following "Group
 - **`03_Design_Patterns`**: Purple (Architecture & Strategy)
 - **`04_Case_Studies`**: Orange (Real-world Applications)
 - **`05_Exam_Prep`**: Red (Exam Preparation)
-- **`06_Flashcards`**: Pink (Active Recall)
+- **`98_Flashcards`**: Pink (Active Recall)
 - **`99_Templates`**: Grey (Automation & Structure)
 
 ## 🧠 Flashcard Ecosystem & Spaced Repetition Guide
@@ -94,9 +94,9 @@ To visualize the knowledge map effectively in Obsidian, use the following "Group
 When creating active recall flashcards, strict adherence to the **Obsidian Spaced Repetition Plugin** rules is required to maintain a structured and automatically routed database.
 
 ### 1. Mirrored Directory Structure
-The `06_Flashcards/` folder MUST mirror the structural paths of the broader vault to maintain logical separation.
+The `98_Flashcards/` folder MUST mirror the structural paths of the broader vault to maintain logical separation.
 - Do **not** dump flashcards into a flat root folder.
-- *Example:* A flashcard for `01_Services/Networking/Cloud_Load_Balancing.md` must be saved exactly at `06_Flashcards/01_Services/Networking/Cloud_Load_Balancing_Flashcards.md`.
+- *Example:* A flashcard for `01_Services/Networking/Cloud_Load_Balancing.md` must be saved exactly at `98_Flashcards/01_Services/Networking/Cloud_Load_Balancing_Flashcards.md`.
 
 ### 2. Strict Tag Hierarchy (Logical Routing)
 Deck folders inside the review UI are generated dynamically via tag splitting.
