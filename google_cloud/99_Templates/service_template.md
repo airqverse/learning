@@ -33,6 +33,17 @@ infrastructure_analogy: ""
 - **Compared to:** [[01_Services/Category/Alternative_Service|Alternative Service]] (e.g., GKE vs. Cloud Run)
 - **Operations & IaC:** [[02_Operations_and_IaC/Service_Name_Ops|Service Name Operations]] (Link to Terraform/gcloud configuration notes)
 
+## ⚙️ Architecture & Configurations
+*Detailed breakdown of the service's internal components and configuration options (e.g., Machine Families, Disk Types, Routing Modes). This section is placed at the bottom as it can grow significantly.*
+
+### Component/Option 1
+- **Description:**
+- **Use Case:**
+
+### Component/Option 2
+- **Description:**
+- **Use Case:**
+
 #gcp/services/[CATEGORY_NAME] # Gemini CLI: replace with the category (e.g., #gcp/services/Compute)
 
 ---

@@ -25,7 +25,7 @@ infrastructure_analogy: "Renting an empty building in the city where you provide
 
 ## 💰 Pricing Model
 - **Billing Metric:** Per-second billing with a 1-minute minimum. You are charged for vCPU, memory, storage (Persistent Disks), and network egress.
-- **Cost Optimization:** 
+- **Cost Optimization:**
   - Use **Spot VMs** (formerly Preemptible VMs) for fault-tolerant, interruptible batch jobs to get up to a 91% discount.
   - Leverage **Sustained Use Discounts** (applied automatically for running a VM for a significant portion of the billing month) or **Committed Use Discounts** (1- or 3-year commitments).
   - Apply **Right-sizing Recommendations** from the Cloud Console to eliminate over-provisioned resources.
