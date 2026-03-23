@@ -35,7 +35,7 @@ infrastructure_analogy: "A temporary, pop-up assembly line that processes raw ma
 - **Compared to:** [[01_Services/Analytics/Cloud_Dataflow|Cloud Dataflow]] (Dataproc is server-based, open-source Spark/Hadoop; Dataflow is serverless Apache Beam) and [[01_Services/Analytics/BigQuery|BigQuery]] (Dataproc is for complex programmatic transformations; BigQuery is a data warehouse for SQL analytics).
 - **Operations & IaC:** [[02_Operations_and_IaC/Cloud_Dataproc_Ops|Cloud Dataproc Operations]]
 
-#gcp/services/Analytics
+#services/Analytics
 
 ---
 [[00_Index/01_Services_MOC|Back to Services Index]]

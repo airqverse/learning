@@ -25,4 +25,4 @@ This map covers real-world enterprise architectures, migration stories, and the 
 ---
 🔙 [[00_Index/00_GCP_Master_Map|Back to Master Map]]
 
-#gcp/moc/case_studies
+#index

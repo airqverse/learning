@@ -26,4 +26,4 @@ This map is the command center for your Google Professional Certification prepar
 ---
 🔙 [[00_Index/00_GCP_Master_Map|Back to Master Map]]
 
-#gcp/moc/exam_prep
+#index

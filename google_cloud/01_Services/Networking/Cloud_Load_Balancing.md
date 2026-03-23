@@ -36,7 +36,7 @@ infrastructure_analogy: "The city's intelligent traffic control system, directin
 - **Compared to:** [[01_Services/Networking/Cloud_DNS|Cloud DNS]] (DNS routes traffic based on name resolution; Load Balancing actively proxies traffic, terminates SSL, and checks server health).
 - **Operations & IaC:** [[02_Operations_and_IaC/Cloud_Load_Balancing_Ops|Cloud Load Balancing Operations]]
 
-#gcp/services/Networking
+#services/Networking
 
 ---
 [[00_Index/01_Services_MOC|Back to Services Index]]

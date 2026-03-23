@@ -33,7 +33,7 @@ infrastructure_analogy: "The city's central, managed municipal records office."
 - **Compared to:** [[01_Services/Databases/Cloud_Spanner|Cloud Spanner]] (Cloud SQL is regional and vertically scaled; Spanner is global and horizontally scaled) and [[01_Services/Compute/Compute_Engine|Compute Engine]] (Self-managed DB on a VM vs. fully managed DB).
 - **Operations & IaC:** [[02_Operations_and_IaC/Cloud_SQL_Ops|Cloud SQL Operations]]
 
-#gcp/services/Databases
+#services/Databases
 
 ---
 [[00_Index/01_Services_MOC|Back to Services Index]]

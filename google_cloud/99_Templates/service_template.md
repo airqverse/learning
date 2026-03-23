@@ -44,7 +44,7 @@ infrastructure_analogy: ""
 - **Description:**
 - **Use Case:**
 
-#gcp/services/[CATEGORY_NAME] # Gemini CLI: replace with the category (e.g., #gcp/services/Compute)
+#services/[CATEGORY_NAME] # Gemini CLI: replace with the category (e.g., #services/Compute)
 
 ---
 [[00_Index/01_Services_MOC|Back to Services Index]]

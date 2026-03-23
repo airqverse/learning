@@ -39,7 +39,7 @@ infrastructure_analogy: "A single-task automated toll booth that performs one sp
 - **Compared to:** [[01_Services/Serverless/Cloud_Run|Cloud Run]] (Cloud Functions is for code snippets and simple event glue; Cloud Run is for full containerized applications). Cloud Functions Gen 2 is actually deployed as a Cloud Run service under the hood.
 - **Operations & IaC:** [[02_Operations_and_IaC/Cloud_Functions_Ops|Cloud Functions Operations]]
 
-#gcp/services/Serverless
+#services/Serverless
 
 ---
 [[00_Index/01_Services_MOC|Back to Services Index]]

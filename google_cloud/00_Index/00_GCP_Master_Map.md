@@ -14,4 +14,4 @@ Welcome to the Google Cloud Platform (GCP) Knowledge Base, tailored for **Google
 - **Goal:** Google Cloud Professional Certification.
 - **Methodology:** Concepts-to-Architecture using City Infrastructure analogies.
 
-#gcp/moc #gcp/master
+#index

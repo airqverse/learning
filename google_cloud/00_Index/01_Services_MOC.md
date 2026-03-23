@@ -65,4 +65,4 @@ This map covers the core building blocks of Google Cloud Platform, categorized t
 ---
 🔙 [[00_Index/00_GCP_Master_Map|Back to Master Map]]
 
-#gcp/moc/services
+#index

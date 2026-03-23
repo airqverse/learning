@@ -37,7 +37,7 @@ infrastructure_analogy: "A comprehensive city research hub and university, offer
 - **Compared to:** [[01_Services/Analytics/BigQuery|BigQuery ML]] (BigQuery ML is for SQL users doing basic ML on structured data; Vertex AI is for complex, custom, or unstructured ML workloads).
 - **Operations & IaC:** [[02_Operations_and_IaC/Vertex_AI_Ops|Vertex AI Operations]]
 
-#gcp/services/Artificial_Intelligence
+#services/Artificial_Intelligence
 
 ---
 [[00_Index/01_Services_MOC|Back to Services Index]]

@@ -36,7 +36,7 @@ infrastructure_analogy: "Renting an empty building in the city where you provide
 - **Compared to:** [[01_Services/Compute/Google_Kubernetes_Engine|GKE]] (Containers as a Service) vs. [[01_Services/Compute/Cloud_Run|Cloud Run]] (Serverless). GCE gives maximum control at the cost of high management overhead.
 - **Operations & IaC:** [[02_Operations_and_IaC/Compute_Engine_Ops|Compute Engine Operations]]
 
-#gcp/services/compute
+#services/compute
 
 ---
 [[00_Index/01_Services_MOC|Back to Services Index]]

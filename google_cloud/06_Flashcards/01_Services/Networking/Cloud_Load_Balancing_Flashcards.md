@@ -4,7 +4,7 @@ service_model: IaaS
 management_level: Fully-Managed
 tags:
   - flashcards/services/networking
-  - gcp/exam_prep/flashcards
+  - exam_prep/flashcards
 ---
 
 # Cloud Load Balancing Flashcards

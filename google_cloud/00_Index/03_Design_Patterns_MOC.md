@@ -25,4 +25,4 @@ This map covers architectural blueprints, strategies, and best practices for bui
 ---
 🔙 [[00_Index/00_GCP_Master_Map|Back to Master Map]]
 
-#gcp/moc/design_patterns
+#index

@@ -46,7 +46,7 @@ When modifying or adding new notes, strictly adhere to these principles:
     - **`05_Exam_Prep` & `06_Flashcards`**: Focus on *Key differentiators*, *exact quotas/limits*, and *tricky wording often found in exam questions*.
 4.  **Tagging & Metadata**: Every note MUST include:
     - YAML frontmatter with attributes like `service_category`.
-    - Category-specific tags (e.g., `#gcp/services/compute`, `#gcp/operations`, `#gcp/exam_prep`).
+    - Category-specific tags (e.g., `#services/compute`, `#operations`, `#exam_prep`).
 5.  **Graph Optimization**: Avoid orphan notes. Link new notes in their respective category MOC in `00_Index` and maintain "Related" links between services that integrate well together.
 
 ### 🤖 Automated Generation Rules (For Gemini/Cursor)

@@ -21,4 +21,4 @@ This map covers the maintenance, deployment, and infrastructure management of Go
 ---
 🔙 [[00_Index/00_GCP_Master_Map|Back to Master Map]]
 
-#gcp/moc/operations
+#index

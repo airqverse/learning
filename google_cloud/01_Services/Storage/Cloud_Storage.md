@@ -36,7 +36,7 @@ infrastructure_analogy: "The city's infinitely expanding, heavily guarded shippi
 - **Compared to:** [[01_Services/Storage/Persistent_Disk|Persistent Disk]] (Cloud Storage is object storage accessed via API; Persistent Disk is block storage mounted directly to a VM).
 - **Operations & IaC:** [[02_Operations_and_IaC/Cloud_Storage_Ops|Cloud Storage Operations]]
 
-#gcp/services/Storage
+#services/Storage
 
 ---
 [[00_Index/01_Services_MOC|Back to Services Index]]

@@ -36,7 +36,7 @@ infrastructure_analogy: "An on-demand, highly trained task force that sits idle 
 - **Compared to:** [[01_Services/Serverless/Cloud_Functions|Cloud Functions]] (Functions are snippet-based and single-concurrency; Run is container-based and multi-concurrency), [[01_Services/Compute/App_Engine|App Engine]] (App Engine is older PaaS with strict runtimes; Run is modern CaaS using any container), and [[01_Services/Compute/Google_Kubernetes_Engine|GKE]] (GKE requires managing the cluster; Run is fully serverless).
 - **Operations & IaC:** [[02_Operations_and_IaC/Cloud_Run_Ops|Cloud Run Operations]]
 
-#gcp/services/Serverless
+#services/Serverless
 
 ---
 [[00_Index/01_Services_MOC|Back to Services Index]]

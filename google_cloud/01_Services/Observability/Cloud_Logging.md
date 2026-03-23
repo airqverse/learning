@@ -36,7 +36,7 @@ infrastructure_analogy: "The city's unalterable public record book and surveilla
 - **Compared to:** [[01_Services/Observability/Cloud_Monitoring|Cloud Monitoring]] (Logging handles text/JSON event transcripts; Monitoring handles numerical time-series metrics).
 - **Operations & IaC:** [[02_Operations_and_IaC/Cloud_Logging_Ops|Cloud Logging Operations]]
 
-#gcp/services/Observability
+#services/Observability
 
 ---
 [[00_Index/01_Services_MOC|Back to Services Index]]
