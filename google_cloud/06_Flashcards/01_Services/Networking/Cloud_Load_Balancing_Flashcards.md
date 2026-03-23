@@ -3,8 +3,8 @@ service_category: Networking
 service_model: IaaS
 management_level: Fully-Managed
 tags:
+  - flashcards/services/networking
   - gcp/exam_prep/flashcards
-  - gcp/services/networking
 ---
 
 # Cloud Load Balancing Flashcards
@@ -14,19 +14,19 @@ tags:
 ## 1. Cloze Deletion (The Contextual Blank)
 *Testing constraints within paragraph context.*
 
-The Global External Application Load Balancer operates at Layer ==7== of the OSI model and routes traffic based on ==HTTP/HTTPS== headers. Unlike regional variants, it requires the ==Premium== Network Tier to provide a single global Anycast IP address. #flashcards/gcp/networking/load_balancing
+The Global External Application Load Balancer operates at Layer ==7== of the OSI model and routes traffic based on ==HTTP/HTTPS== headers. Unlike regional variants, it requires the ==Premium== Network Tier to provide a single global Anycast IP address. #flashcards/services/networking/load_balancing
 <!--SR:!2026-03-26,3,250!2026-03-27,4,270!2026-03-23,1,230-->
 
-When configuring an Internal Proxy Network Load Balancer, it routes ==TCP== traffic and operates exclusively at Layer ==4== without exposing the backend services to the public internet. #flashcards/gcp/networking/load_balancing
+When configuring an Internal Proxy Network Load Balancer, it routes ==TCP== traffic and operates exclusively at Layer ==4== without exposing the backend services to the public internet. #flashcards/services/networking/load_balancing
 <!--SR:!2026-03-23,1,230!2026-03-24,1,230-->
 
 ## 2. Standard Single-line Q&A
 *Testing quick recall using the `::` syntax.*
 
-Which GCP Load Balancer uses Maglev technology under the hood to distribute traffic globally? :: Global External Passthrough Network Load Balancer #flashcards/gcp/networking/load_balancing
+Which GCP Load Balancer uses Maglev technology under the hood to distribute traffic globally? :: Global External Passthrough Network Load Balancer #flashcards/services/networking/load_balancing
 <!--SR:!2026-03-23,1,230-->
 
-What is the required network tier for the Global External Application Load Balancer? :: Premium Tier #flashcards/gcp/networking/load_balancing
+What is the required network tier for the Global External Application Load Balancer? :: Premium Tier #flashcards/services/networking/load_balancing
 <!--SR:!2026-03-26,3,250-->
 
 ## 3. Multi-line Q&A (Exam-Style Scenarios)
@@ -38,7 +38,7 @@ What is the required network tier for the Global External Application Load Balan
 *Reasoning:*
 - "Global" + "Edge termination" for non-HTTP(S) SSL strictly requires the SSL Proxy.
 - Passthrough load balancers cannot terminate SSL at the edge.
-#flashcards/gcp/networking/load_balancing
+#flashcards/services/networking/load_balancing
 <!--SR:!2026-03-23,1,230-->
 
 **Scenario:** Your microservices deployed on Google Kubernetes Engine (GKE) in `us-central1` need to securely load balance internal gRPC traffic between each other. The endpoints cannot be exposed to the public internet. Which load balancer should you implement?
@@ -48,7 +48,7 @@ What is the required network tier for the Global External Application Load Balan
 - It operates at Layer 7 (required for gRPC).
 - It is Internal (no public internet exposure).
 - It handles regional GKE traffic efficiently.
-#flashcards/gcp/networking/load_balancing
+#flashcards/services/networking/load_balancing
 <!--SR:!2026-03-24,1,230-->
 
 ## 4. Block Transclusion (The DRY Principle)
@@ -58,5 +58,5 @@ What is the architectural difference between Proxy and Passthrough load balancer
 ?
 ![[Cloud_Load_Balancing^proxy-vs-passthrough]]
 *(Note: If the `Cloud_Load_Balancing` note is updated, this flashcard's answer updates automatically).*
-#flashcards/gcp/networking/load_balancing
+#flashcards/services/networking/load_balancing
 <!--SR:!2026-03-23,1,230-->

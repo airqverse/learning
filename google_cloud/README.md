@@ -89,5 +89,27 @@ To visualize the knowledge map effectively in Obsidian, use the following "Group
 - **`06_Flashcards`**: Pink (Active Recall)
 - **`99_Templates`**: Grey (Automation & Structure)
 
+## 🧠 Flashcard Ecosystem & Spaced Repetition Guide
+
+When creating active recall flashcards, strict adherence to the **Obsidian Spaced Repetition Plugin** rules is required to maintain a structured and automatically routed database.
+
+### 1. Mirrored Directory Structure
+The `06_Flashcards/` folder MUST mirror the structural paths of the broader vault to maintain logical separation.
+- Do **not** dump flashcards into a flat root folder.
+- *Example:* A flashcard for `01_Services/Networking/Cloud_Load_Balancing.md` must be saved exactly at `06_Flashcards/01_Services/Networking/Cloud_Load_Balancing_Flashcards.md`.
+
+### 2. Strict Tag Hierarchy (Logical Routing)
+Deck folders inside the review UI are generated dynamically via tag splitting.
+- The tag structure MUST correspond directly to the physical folder path of the knowledge base (excluding the numerical prefixes).
+- The absolute root tag MUST be: `#flashcards/`
+- *Example:* A file in `01_Services/Networking/` should use tags like `#flashcards/services/networking/load_balancing`.
+- *Example:* A file in `03_Design_Patterns/` should use tags like `#flashcards/design_patterns/ha`.
+
+### 3. Flashcard Formatting Rules
+1. **Cloze Deletions (`==text==`):** Use for testing precise parameters, OSI layers, or limits *within* a surrounding architectural paragraph.
+2. **Standard Q&A (`::`):** Use for direct terminology mapping. (E.g., `Question :: Answer`)
+3. **Multi-line Scenario Q&A (`?`):** Use for exam-style situational questions. Place `?` on its own line between the prompt and the answer/reasoning block.
+4. **Block Transclusion:** To enforce the DRY principle, embed the source of truth from the main note instead of duplicating text. Use `![[Note_Name^block-id]]` on the back of the card so it dynamically fetches updates.
+
 ---
 *Generated with care to bridge the gap between abstract cloud architecture, practical implementation, and certification readiness.*
