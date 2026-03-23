@@ -26,6 +26,7 @@ This map covers the core building blocks of Google Cloud Platform, categorized t
 
 ## ⚡ Serverless
 - [[01_Services/Serverless/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
+- [[01_Services/Serverless/Cloud_Functions|Cloud Functions]]
 - [[01_Services/Serverless/Cloud_Run|Cloud Run]]
 
 ## 🗄️ Databases
