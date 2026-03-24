@@ -71,8 +71,8 @@ Strictly adhere to the following naming formats:
    - *Example:* `Compute_Engine.md`, `Cloud_Load_Balancing.md`
 2. **Directories / Folders:** Use `[Optional_Number_Prefix]_Pascal_Snake_Case`.
    - *Example:* `01_Services/`, `Compute/`, `Data_and_ML/`
-3. **Utility and System Files (Templates, Configs):** Use `lowercase_snake_case`.
-   - *Example:* `service_template.md`
+3. **Utility and System Files (Templates, Configs):** Templates MUST exactly match their corresponding target directory name with a `_Template` suffix (e.g., `01_Services_Template.md`). Other system files use `lowercase_snake_case`.
+   - *Example:* `01_Services_Template.md`, `config.yaml`
 4. **Maps of Content (MOCs) & Indexes:** Use `[Number]_Concept_MOC.md`.
    - *Example:* `01_Services_MOC.md`, `00_GCP_Master_Map.md`
 
