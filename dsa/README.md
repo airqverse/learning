@@ -50,6 +50,27 @@ When modifying or adding new notes, strictly adhere to these principles:
 
 ---
 
+## 📝 File and Folder Naming Conventions
+
+To ensure cross-compatibility between human readability in Obsidian and automation tools (CLI, Git, AI Assistants), **NEVER use spaces in file or folder names.** Always use underscores (`_`).
+
+Strictly adhere to the following naming formats:
+
+1. **Content Notes (Structures, Algorithms, Techniques):** Use `Pascal_Snake_Case`.
+   - *Example:* `Binary_Search.md`, `Sliding_Window.md`
+2. **Directories / Folders:** Use `[Optional_Number_Prefix]_Pascal_Snake_Case`.
+   - *Example:* `01_Data_Structures/`, `02_Algorithms/`
+3. **Template Files:** MUST exactly match their corresponding target directory name with a `_Template` suffix.
+   - *Example:* `01_Data_Structures_Template.md`
+4. **Utility and System Files (Configs, Scripts):** Use `lowercase_snake_case`.
+   - *Example:* `config.yaml`, `build_script.py`
+5. **Maps of Content (MOCs) & Indexes:** Use `[Number]_Concept_MOC.md`.
+   - *Example:* `01_Data_Structures_MOC.md`, `00_DSA_Master_Map.md`
+
+*Note: For human readability in Obsidian text, use aliases when creating links to obscure the underscore (e.g., `[[Binary_Search|Binary Search]]`).*
+
+---
+
 ## 🧠 Flashcard Ecosystem (Spaced Repetition)
 
 The `98_Flashcards/` directory is designed to build rapid recall for dynamic interviews. It follows the exact same architectural rules as the `google_cloud` vault:
