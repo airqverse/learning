@@ -71,9 +71,11 @@ Strictly adhere to the following naming formats:
    - *Example:* `Compute_Engine.md`, `Cloud_Load_Balancing.md`
 2. **Directories / Folders:** Use `[Optional_Number_Prefix]_Pascal_Snake_Case`.
    - *Example:* `01_Services/`, `Compute/`, `Data_and_ML/`
-3. **Utility and System Files (Templates, Configs):** Templates MUST exactly match their corresponding target directory name with a `_Template` suffix (e.g., `01_Services_Template.md`). Other system files use `lowercase_snake_case`.
-   - *Example:* `01_Services_Template.md`, `config.yaml`
-4. **Maps of Content (MOCs) & Indexes:** Use `[Number]_Concept_MOC.md`.
+3. **Template Files:** MUST exactly match their corresponding target directory name with a `_Template` suffix.
+   - *Example:* `01_Services_Template.md`
+4. **Utility and System Files (Configs, Scripts):** Use `lowercase_snake_case`.
+   - *Example:* `config.yaml`, `build_script.sh`
+5. **Maps of Content (MOCs) & Indexes:** Use `[Number]_Concept_MOC.md`.
    - *Example:* `01_Services_MOC.md`, `00_GCP_Master_Map.md`
 
 *Note: For human readability in Obsidian text, use aliases when creating links to obscure the underscore (e.g., `[[Compute_Engine|Compute Engine]]`).*
