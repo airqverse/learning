@@ -45,9 +45,12 @@ infrastructure_analogy: "A private, gated city infrastructure with custom roads 
 
 ## ⚙️ Architecture & Configurations
 
-### Auto vs. Custom Mode
-- **Description:** Auto-mode automatically creates one subnet per GCP region with predefined IP ranges. Custom-mode starts with zero subnets, giving administrators full control over IP space.
-- **Use Case:** Custom-mode is mandatory for production to avoid IP overlap, especially when implementing Hybrid Cloud connections or VPC Peering.
+### VPC Network Types (Default, Auto Mode, Custom Mode)
+- **Description:**
+  - **Default Network:** Every new GCP project is provisioned with a "default" VPC network. It is inherently an Auto Mode network but comes pre-configured with essential ingress firewall rules (e.g., allow-internal, allow-icmp, allow-ssh, allow-rdp).
+  - **Auto Mode:** Automatically creates one subnet per GCP region with Google-defined IP ranges. As Google adds new cloud regions, new subnets are automatically added to an Auto Mode VPC.
+  - **Custom Mode:** Starts with absolutely zero subnets. Network administrators must manually create every subnet, giving them full control over IP (CIDR) spaces.
+- **Use Case:** Custom Mode is considered mandatory for production environments to avoid IP overlap, particularly when implementing Hybrid Cloud connectivity (VPN/Interconnect) or VPC Peering. Auto Mode is strictly for quick prototyping. The Default network should typically be deleted or its creation restricted via Organization Policy in enterprise environments.
 
 ### Shared VPC
 - **Description:** Allows an organization to connect resources from multiple distinct Google Cloud projects to a common VPC network. One project is designated as the "Host Project," while others are "Service Projects."
