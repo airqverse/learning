@@ -26,7 +26,7 @@ infrastructure_analogy: "A private, gated city infrastructure with custom roads 
 ## 📏 Scaling Limits & Constraints
 - **Scalability:** Powered by Google's Andromeda software-defined networking stack, VPCs scale automatically to handle massive throughput without the need to provision virtual routers for basic routing.
 - **Hard Quotas & Limits:**
-  - **VPCs per project:** 100 (Default)
+  - **VPCs per project:** 5 (Default), can be increased up to 15 networks or higher.
   - **Subnets per project:** 7,000 (Default)
   - **VPC Peering:** Peering is strictly **non-transitive** (If A peers with B, and B peers with C, A cannot talk to C). Max 25 active peering connections per VPC network.
 
