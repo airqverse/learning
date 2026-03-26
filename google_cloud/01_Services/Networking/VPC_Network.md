@@ -8,7 +8,8 @@ infrastructure_analogy: "A private, gated city infrastructure with custom roads 
 
 ## 🎯 Definition & Purpose
 - Google Cloud Virtual Private Cloud (VPC) provides networking functionality to Compute Engine virtual machine (VM) instances, Google Kubernetes Engine (GKE) clusters, and serverless environments. It is a comprehensive, software-defined network.
-- **Key Differentiator:** GCP VPCs are **Global** resources (spanning the entire world), whereas subnets are **Regional**. This means instances in different regions can communicate via internal IP addresses within the same VPC without needing complex peering configurations.
+- **Key Differentiator (Global vs. Regional):** GCP VPCs are **Global** resources (spanning the entire world), whereas subnets are **Regional**. This means instances in different regions can communicate via internal IP addresses within the same VPC without needing complex peering configurations.
+- **Key Differentiator (No VPC-level IP Ranges):** Unlike other cloud providers (e.g., AWS), a GCP VPC network *itself* does not have an IP address range (CIDR block) assigned to it. The VPC is simply a global logical construct. All IP ranges are strictly defined at the **Subnet** level within specific regions.
 
 ## 🏙️ City Infrastructure Analogy
 - **Think of it like a private, globally connected gated community.** 
