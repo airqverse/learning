@@ -19,6 +19,7 @@ This map covers the core building blocks of Google Cloud Platform, categorized t
 
 ## 🌐 Networking
 - [[01_Services/Networking/Placeholder|Placeholder]] # Gemini CLI: Insert actual service notes below this line
+- [[01_Services/Networking/Network_Services|Network Services]]
 - [[01_Services/Networking/VPC_Network|VPC Network]]
 - [[01_Services/Networking/Cloud_Load_Balancing|Cloud Load Balancing]]
 
