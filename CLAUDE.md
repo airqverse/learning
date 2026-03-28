@@ -68,6 +68,8 @@ All code examples must be in **Python** unless explicitly requested otherwise.
 Use explicit bracket syntax (`[SERVICE_NAME]`, `[COMPONENT_NAME]`) — never Templater syntax (`{{}}` or `<% %>`).
 
 ## Memolog Workflow (google_cloud_memolog/)
-This vault is different: the user writes raw stream-of-consciousness diary entries in `01_Daily_Diaries/`. When asked, extract testable flashcards into `98_Flashcards/ACE_Operational/` (tactical gcloud commands, limits) and `98_Flashcards/PCA_Architectural/` (trade-offs, scenario analysis). Focus on friction points from the diary — errors, hard limits, unexpected constraints — not basic definitions. Tag with `#flashcards/gcp/[domain]`.
+This vault is different: the user writes raw stream-of-consciousness diary entries in `01_Daily_Diaries/`. When asked, extract testable flashcards focusing on friction points — errors, hard limits, order-of-operations, unexpected constraints — not basic definitions. CLI-heavy diary entries (labs, IAM bindings, deployment flags) are a valid diary format and flow through the same pipeline. Tag with `#flashcards/gcp/[domain]`.
 
-CLI-heavy diary entries (labs, IAM bindings, deployment flags) are a valid diary format — they flow through the same pipeline. Extract `gcloud` commands and their gotchas into cloze-deletion cards in `ACE_Operational/`.
+Dual-level targeting — every extraction should attempt cards for both tracks:
+- **ACE (`98_Flashcards/ACE_Operational/`):** Cloze deletions (`==text==`) for specific `gcloud` flags, default timeouts, IAM bindings, and exact commands actually used.
+- **PCA (`98_Flashcards/PCA_Architectural/`):** Multi-line scenario analysis (`?`) or comparative differentiators (`::`) based on architectural "Why". Answers must include the correct choice and why alternatives were wrong.
