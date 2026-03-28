@@ -29,6 +29,7 @@ Instead, you write a stream-of-consciousness **Diary Entry** in the `01_Daily_Di
 - "What broke and how I fixed it..."
 - "What surprised me about this service's limits..."
 - "Why the tutorial chose service X instead of service Y..."
+- "What `gcloud` commands I ran and what tripped me up..." — CLI-heavy sessions (labs, IAM bindings, deployment flags) are a valid diary format. The AI should extract these into cloze-deletion cards in `ACE_Operational/`.
 
 ### 2. The Extraction (The AI Assistant - Gemini/Cursor)
 When you are ready, you trigger the AI assistant to review your recent diaries. 

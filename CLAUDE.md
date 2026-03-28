@@ -69,3 +69,5 @@ Use explicit bracket syntax (`[SERVICE_NAME]`, `[COMPONENT_NAME]`) — never Tem
 
 ## Memolog Workflow (google_cloud_memolog/)
 This vault is different: the user writes raw stream-of-consciousness diary entries in `01_Daily_Diaries/`. When asked, extract testable flashcards into `98_Flashcards/ACE_Operational/` (tactical gcloud commands, limits) and `98_Flashcards/PCA_Architectural/` (trade-offs, scenario analysis). Focus on friction points from the diary — errors, hard limits, unexpected constraints — not basic definitions. Tag with `#flashcards/gcp/[domain]`.
+
+CLI-heavy diary entries (labs, IAM bindings, deployment flags) are a valid diary format — they flow through the same pipeline. Extract `gcloud` commands and their gotchas into cloze-deletion cards in `ACE_Operational/`.
