@@ -52,36 +52,7 @@ When the user requests flashcard generation from a diary entry, the AI MUST adhe
 ### 1. Emphasize "Friction Points"
 Do not generate flashcards for basic definitions (e.g., "What does Compute Engine do?"). Instead, focus on the friction points mentioned in the diary: the errors, the hard limits, the specific order-of-operations, and the unexpected architectural constraints.
 
-### 2. Dual-Level Targeting
-Every extraction should attempt to create cards for both certification tracks:
-- **ACE Level:** Generate Cloze Deletions (`==text==`) for specific `gcloud` flags, default timeouts, and IAM bindings.
-- **PCA Level:** Generate Multi-line Scenario Analysis (`?`) or Comparative Differentiators (`::`) based on the architectural "Why" discussed in the diary.
-
-### 3. Strict Flashcard Syntax (Obsidian Spaced Repetition)
-The AI must use the exact syntax required by the Obsidian Spaced Repetition plugin:
-
-*   **Multi-line Scenario Analysis (`?`):**
-    Paragraph-long, ambiguous architectural requirements mimicking official exam case studies. Place the `?` on its own line.
-    ```markdown
-    Your team needs to migrate... [Scenario details here]
-    ?
-    **Correct Answer:** [The correct architecture/service]
-    **Why:** [Brief justification of why alternatives were wrong]
-    ```
-
-*   **Cloze Deletions (`==text==`):**
-    For testing precise parameters or exact commands within a sentence.
-    ```markdown
-    To increase the default timeout of a Cloud Run service during deployment, use the flag ==--timeout=[VALUE]==.
-    ```
-
-*   **Comparative Differentiators (`::`):**
-    Standard Q&A strictly testing "Choose This over That" decisions.
-    ```markdown
-    When should you use Cloud Run versus App Engine Standard? :: Use Cloud Run for containerized apps requiring custom system binaries; use App Engine for purely source-code deployments.
-    ```
-
-### 4. Tag Routing
+### 2. Tag Routing
 Every generated flashcard block MUST be appended to the appropriate file in `98_Flashcards/` and MUST include the root tag `#flashcards/gcp/` followed by the specific domain (e.g., `#flashcards/gcp/networking`).
 
 ---
