@@ -11,11 +11,10 @@ This is a collection of interconnected **Obsidian vaults** for technical intervi
 | Vault | Purpose |
 |---|---|
 | `dsa/` | Data structures, algorithms, techniques, and complexity analysis for pair-programming interviews |
-| `google_cloud/` | GCP services, operations/IaC, design patterns, case studies, and exam prep for Professional Certifications (ACE, PCA, PCSE) |
+| `google_cloud/` | Diary-driven GCP learning — daily diaries in `01_Daily_Diaries/` get AI-extracted into flashcards in `98_Flashcards/` for ACE/PCA certification prep |
 | `system_design/` | Distributed systems concepts, building blocks, architecture patterns, and case studies for senior engineering interviews |
-| `google_cloud_memolog/` | Diary-driven flashcard system — raw daily learning diaries in `01_Daily_Diaries/` get AI-extracted into flashcards in `98_Flashcards/` |
 
-Each vault (except memolog) shares a common internal layout:
+Each vault has its own internal layout:
 - `00_Index/` — Maps of Content (MOCs), the navigation entry points
 - Numbered content directories (`01_*` through `05_*`)
 - `98_Flashcards/` — Spaced repetition cards mirroring the content directory structure
@@ -67,7 +66,7 @@ All code examples must be in **Python** unless explicitly requested otherwise.
 ### Template Placeholders
 Use explicit bracket syntax (`[SERVICE_NAME]`, `[COMPONENT_NAME]`) — never Templater syntax (`{{}}` or `<% %>`).
 
-## Memolog Workflow (google_cloud_memolog/)
+## Diary-Driven Workflow (google_cloud/)
 This vault is different: the user writes raw stream-of-consciousness diary entries in `01_Daily_Diaries/`. When asked, extract testable flashcards focusing on friction points — errors, hard limits, order-of-operations, unexpected constraints — not basic definitions. CLI-heavy diary entries (labs, IAM bindings, deployment flags) are a valid diary format and flow through the same pipeline. Tag with `#flashcards/gcp/[domain]`.
 
 Dual-level targeting — every extraction should attempt cards for both tracks:
