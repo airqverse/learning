@@ -11,7 +11,7 @@ This is a collection of interconnected **Obsidian vaults** for technical intervi
 | Vault | Purpose |
 |---|---|
 | `dsa/` | Data structures, algorithms, techniques, and complexity analysis for pair-programming interviews |
-| `google_cloud/` | Diary-driven GCP learning — daily diaries in `01_Daily_Diaries/` get AI-extracted into flashcards in `98_Flashcards/` for ACE/PCA certification prep |
+| `google_cloud/` | Diary-driven GCP learning — daily diaries in `01_Daily_Diaries/` get AI-extracted into flashcards in `98_Flashcards/` for Google Cloud certification prep |
 | `system_design/` | Distributed systems concepts, building blocks, architecture patterns, and case studies for senior engineering interviews |
 
 Each vault has its own internal layout:
@@ -70,5 +70,7 @@ Use explicit bracket syntax (`[SERVICE_NAME]`, `[COMPONENT_NAME]`) — never Tem
 This vault is different: the user writes raw stream-of-consciousness diary entries in `01_Daily_Diaries/`. When asked, extract testable flashcards focusing on friction points — errors, hard limits, order-of-operations, unexpected constraints — not basic definitions. CLI-heavy diary entries (labs, IAM bindings, deployment flags) are a valid diary format and flow through the same pipeline. Tag with `#flashcards/gcp/[domain]`.
 
 Dual-level targeting — every extraction should attempt cards for both tracks:
-- **ACE (`98_Flashcards/ACE_Operational/`):** Cloze deletions (`==text==`) for specific `gcloud` flags, default timeouts, IAM bindings, and exact commands actually used.
-- **PCA (`98_Flashcards/PCA_Architectural/`):** Multi-line scenario analysis (`?`) or comparative differentiators (`::`) based on architectural "Why". Answers must include the correct choice and why alternatives were wrong.
+- **Operational (`98_Flashcards/Operational/`):** Cloze deletions (`==text==`) for specific `gcloud` flags, default timeouts, IAM bindings, and exact commands actually used.
+- **Architectural (`98_Flashcards/Architectural/`):** Multi-line scenario analysis (`?`) or comparative differentiators (`::`) based on architectural "Why". Answers must include the correct choice and why alternatives were wrong.
+
+Use tags to distinguish certification scope (e.g., `#flashcards/gcp/ace/networking`, `#flashcards/gcp/pcse/iam`). A single diary can produce cards for multiple certs.

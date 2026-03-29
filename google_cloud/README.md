@@ -1,6 +1,6 @@
 # Google Cloud (Diary-to-Flashcard Learning System)
 
-This repository is an active learning engine designed to convert daily hands-on experiences and study sessions into long-term memory via spaced repetition. It is specifically tailored for preparing for the **Google Cloud Associate Cloud Engineer (ACE)** and **Professional Cloud Architect (PCA)** certifications.
+This repository is an active learning engine designed to convert daily hands-on experiences and study sessions into long-term memory via spaced repetition. It is tailored for preparing for **Google Cloud Professional Certifications**.
 
 **The core philosophy: Stop writing passive encyclopedias. Write active experiences, and let AI extract the testable facts.**
 
@@ -29,7 +29,7 @@ Instead, you write a stream-of-consciousness **Diary Entry** in the `01_Daily_Di
 - "What broke and how I fixed it..."
 - "What surprised me about this service's limits..."
 - "Why the tutorial chose service X instead of service Y..."
-- "What `gcloud` commands I ran and what tripped me up..." — CLI-heavy sessions (labs, IAM bindings, deployment flags) are a valid diary format. The AI should extract these into cloze-deletion cards in `ACE_Operational/`.
+- "What `gcloud` commands I ran and what tripped me up..." — CLI-heavy sessions (labs, IAM bindings, deployment flags) are a valid diary format. The AI should extract these into cloze-deletion cards in `Operational/`.
 
 ### 2. The Extraction (The AI Assistant)
 When you are ready, you trigger the AI assistant to review your recent diaries. 
@@ -42,8 +42,8 @@ The AI will automatically route the generated flashcards into the `98_Flashcards
 
 - **`01_Daily_Diaries/`**: The raw, unformatted brain-dumps of your daily learning. Name files by date (e.g., `2026-03-27.md`) or specific topic deep-dives (e.g., `GKE_Networking_Lab.md`).
 - **`98_Flashcards/`**: The automatically generated, structured active recall decks.
-  - `ACE_Operational/`: Flashcards focused on "How to do it" (gcloud commands, IAM roles, basic limits, tactical execution).
-  - `PCA_Architectural/`: Flashcards focused on "Why do it" (Trade-offs, Cost vs. HA, Multi-service scenario analysis, strategic design).
+  - `Operational/`: Flashcards focused on "How to do it" (gcloud commands, IAM roles, basic limits, tactical execution).
+  - `Architectural/`: Flashcards focused on "Why do it" (Trade-offs, Cost vs. HA, Multi-service scenario analysis, strategic design).
 
 ## 🤖 AI Generation Directives
 
