@@ -1,6 +1,6 @@
 # Google Cloud (Diary-to-Flashcard Learning System)
 
-This repository is an active learning engine designed to convert daily hands-on experiences and study sessions into long-term memory via spaced repetition. It is tailored for preparing for **Google Cloud Professional Certifications**.
+This repository is an active learning engine designed to convert hands-on experiences and study sessions into long-term memory via spaced repetition. It is tailored for preparing for **Google Cloud Professional Certifications**.
 
 **The core philosophy: Stop writing passive encyclopedias. Write active experiences, and let AI extract the testable facts.**
 
@@ -22,7 +22,7 @@ The process is designed for maximum speed and zero friction on the learner's par
 
 ### 1. The Input (The Learner)
 When you study a new concept, read documentation, or complete a Qwiklabs exercise, you do **not** write a formal, structured note. 
-Instead, you write a stream-of-consciousness **Diary Entry** in the `01_Daily_Diaries/` folder.
+Instead, you write a stream-of-consciousness **Diary Entry** in the `01_Diaries/` folder.
 
 *Focus on:*
 - "What I did today..."
@@ -40,7 +40,7 @@ The AI will automatically route the generated flashcards into the `98_Flashcards
 
 ## 📁 Folder Structure
 
-- **`01_Daily_Diaries/`**: The raw, unformatted brain-dumps of your daily learning. Name files by date (e.g., `2026-03-27.md`) or specific topic deep-dives (e.g., `GKE_Networking_Lab.md`).
+- **`01_Diaries/`**: The raw, unformatted brain-dumps of your learning. Name files by date (e.g., `2026-03-27.md`) or specific topic deep-dives (e.g., `GKE_Networking_Lab.md`).
 - **`98_Flashcards/`**: The automatically generated, structured active recall decks.
   - `Operational/`: Flashcards focused on "How to do it" (gcloud commands, IAM roles, basic limits, tactical execution).
   - `Architectural/`: Flashcards focused on "Why do it" (Trade-offs, Cost vs. HA, Multi-service scenario analysis, strategic design).
