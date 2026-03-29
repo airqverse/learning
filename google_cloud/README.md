@@ -55,5 +55,11 @@ Do not generate flashcards for basic definitions (e.g., "What does Compute Engin
 ### 2. Tag Routing
 Every generated flashcard block MUST be appended to the appropriate file in `98_Flashcards/` and MUST include the root tag `#flashcards/gcp/` followed by the specific domain (e.g., `#flashcards/gcp/networking`).
 
+## Roadmap
+
+- [ ] **Duplicate prevention via RAG** — Before generating new flashcards, use semantic similarity search (sentence-transformers + cosine similarity) to detect existing cards covering the same concept. AI should skip duplicates and refine existing cards instead. Integrate directly into the AI generation workflow so the user never has to run a separate tool.
+- [ ] **Card refinement on repetition** — When a diary revisits a concept that already has a flashcard, strengthen or add a new angle to the existing card rather than creating a duplicate.
+- [ ] **Web app** — Once the system matures, refactor into a web application.
+
 ---
 *Write fast, test hard.*
